@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="61.47" height="64.56" viewBox="0 0 61.47 64.56">
+  <defs>
+    <style>
+      .cls-1,.cls-2{fill:none;stroke:#000;stroke-width:2px;}.cls-1{stroke-linejoin:round;}.cls-2{stroke-linecap:round;stroke-miterlimit:10;}
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="faucet">
+        <polygon class="cls-1" points="54.92 34.32 9.52 34.32 15.85 13.97 48.59 13.97 54.92 34.32"/>
+        <path class="cls-2" d="M32.22,14V5.16A4.17,4.17,0,0,0,28.05,1H1"/>
+        <circle cx="16.03" cy="42.8" r="2.17"/>
+        <circle cx="26.82" cy="42.62" r="2.17"/>
+        <circle cx="37.61" cy="42.59" r="2.17"/>
+        <circle cx="48.4" cy="42.45" r="2.17"/>
+        <circle cx="10.64" cy="51.98" r="2.17"/>
+        <circle cx="21.43" cy="51.81" r="2.17"/>
+        <circle cx="32.22" cy="51.77" r="2.17"/>
+        <circle cx="43.01" cy="51.64" r="2.17"/>
+        <circle cx="53.8" cy="51.64" r="2.17"/>
+        <circle cx="5.35" cy="62.39" r="2.17"/>
+        <circle cx="16.14" cy="62.22" r="2.17"/>
+        <circle cx="26.93" cy="62.19" r="2.17"/>
+        <circle cx="37.72" cy="62.05" r="2.17"/>
+        <circle cx="48.51" cy="62.05" r="2.17"/>
+        <circle cx="59.3" cy="62.05" r="2.17"/>
+      </g>
+    </g>
+  </g>
+</svg>
