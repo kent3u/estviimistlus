@@ -485,7 +485,7 @@ header > .container {
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url("../img/paul-trienekens-9goYHROaqMo-unsplash.jpg");
+  background-image: url("../img/paul-trienekens-9goYHROaqMo-medium.jpg");
   background-size: cover;
   background-position-y: bottom;
   z-index: -1;
@@ -766,6 +766,11 @@ footer {
 .contacts-item {
   color: #F6F7F8;
   min-width: 250px;
+}
+
+a[href^="tel"] {
+  color: inherit;
+  text-decoration: none;
 }
 
 /*            LIGHTBOX            */
