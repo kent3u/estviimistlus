@@ -32,6 +32,21 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 });
 
+function loadImagesInTheBackground() {
+  document.querySelectorAll('[data-src]').forEach((element) => {
+    element.setAttribute('src', element.getAttribute('data-src'));
+  })
+}
+
+function animateHeroImage() {
+  document.querySelector('.hero-drawing').classList.add('hero-drawing-animation')
+}
+
+window.addEventListener('load', () => {
+  animateHeroImage()
+  loadImagesInTheBackground();
+})
+
 function showNextButton(boolean) {
   if (boolean) {
     document.querySelector('.next-image').classList.remove('hidden');
@@ -181,6 +196,8 @@ document.querySelector('#load-more').addEventListener('click', () => {
 
   for (let i = 0; i < showImagesAmount; i++) {
     hiddenImages[i].classList.remove('hidden');
+    const parentImage = hiddenImages[i].getElementsByTagName('img')[0];
+    parentImage.setAttribute('src', parentImage.getAttribute('data-src'));
   }
 
   if (hiddenImages.length - showImagesAmount === 0) {

@@ -538,6 +538,10 @@ header > .container {
   stroke-width: 2px;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
+  /*animation: draw 1400ms ease-in-out 4ms forwards;*/
+}
+
+.hero-drawing-animation {
   animation: draw 1400ms ease-in-out 4ms forwards;
 }
 
@@ -667,7 +671,7 @@ section {
   text-align: justify;
   position: relative;
   font-weight: 600;
-  flex: 55%;
+  flex: 50%;
 }
 
 /*.meist-text:before {*/
